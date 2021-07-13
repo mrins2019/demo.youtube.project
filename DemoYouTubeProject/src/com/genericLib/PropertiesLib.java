@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class PropertiesLib {
 
-	String filePath = "H:/Eclipse Workspace/MyWorkspace/DemoYouTubeProject/config.properties";
+	String filePath = "./config.properties";
 
 	public String getPropertiesData(String key) throws Exception{
 		Properties prop = new Properties();
